@@ -39,7 +39,7 @@ function rollDie2(){
      let die = Math.floor(Math.random() * 6) + 1;
      let numbers = [];
 
-     //roll.innerHTML = count;                
+                    
      
      for(let i = 0; i<= 11; i++){
          numbers.push(count[i]);
@@ -65,7 +65,26 @@ function rollDie2(){
           datasets: [{
             label: 'Dice Count',
             data: numbers,
-            backgroundColor: "black",
+            backgroundColor: 
+            ["darkblue",
+             "blue",
+             "aqua",
+             "green",
+             "lightgreen",
+             "yellow",
+             "orange",
+             "crimson",
+             "red",
+             "pink",
+             "purple", 
+                   
+          ],
+          borderwidth: 1,
+          borderColor: "gray",
+          hoverBorderWidth: 3,
+          hoverBorderColor: "black",
+
+
           }
          ]
         

@@ -1,5 +1,9 @@
 #chart{
+float: right;
 height: 200px;
-width: 400px;
+width: 500px;
+position: relative;
+bottom: 380px;
+right: 600px;
+}   
 
-}
