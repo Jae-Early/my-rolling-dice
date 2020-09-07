@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Required meta tags-->
+    
     <meta charset="UTF-8" />
     <meta
       name="viewport"
@@ -12,15 +12,48 @@
     <meta name="author" content="Kenzie" />
     <meta name="keywords" content="Kenzie" />
 
-    <!-- Title Page-->
+    
     <title>Rolling Dice</title>
 
-    <!-- CSS-->
+    
     <link href="css/main.css" rel="stylesheet" media="all" />
     <script src="main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.4/Chart.min.js"></script>
+
+
+
   </head>
 
   <body>
-    <!-- Your html here -->
+    
+    <button onclick="rollDie()">Roll Dice 1</button>
+    <div id="die" class="dice">0</div><br>
+    
+    <button onclick="rollDie2()">Roll Dice 2</button> 
+    <div id="die1" class="dice">0</div>
+    <div id="die2" class="dice">0</div><br>
+    
+    <button onclick="rollOfDice()">counter</button>
+    <div id="rollOfDice" class="dice"></div><br>
+    <div id = "bar 0">2:</div>
+    <div id = "bar 1">3:</div>
+    <div id=  "bar 2">4:</div>
+    <div id = "bar 3">5:</div>
+    <div id = "bar 4">6:</div>
+    <div id = "bar 5">7:</div>
+    <div id = "bar 6">8:</div>
+    <div id = "bar 7">9:</div>
+    <div id = "bar 8">10:</div>
+    <div id = "bar 9">11:</div>
+    <div id = "bar 10">12:</div>
+
+
+   
+    
+    
+    
+    <div id = "chart"><canvas id="myChart" width="100" height="100"></canvas></div>
+   
+
   </body>
 </html>
